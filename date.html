@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        <select name="year" id="year"></select>
+        <select name="month" id="month"></select>
+        <select name="day" id="day"></select>
+    </div>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/DateThreeLinkage.js"></script>
+    <script>
+        new DateThreeLinkage({
+            element:{
+                year : '#year',
+                month : '#month',
+                day : '#day'
+            }
+        })
+    </script>
+</body>
+</html>
